@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_maventest_1689828417588-push-trigger-input-set
+  identifier: Build_maventest_1689828417588pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_maventest_1689828417588
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

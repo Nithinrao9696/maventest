@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_maventest_1689828417588-pr-trigger-input-set
+  identifier: Build_maventest_1689828417588prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_maventest_1689828417588
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
